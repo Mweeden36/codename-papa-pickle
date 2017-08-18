@@ -16,3 +16,4 @@
 * Email Digests (Mandrill mailchimp or something?)
 
 # Data Model
+* https://docs.google.com/document/d/1oaJcseUkhVE9OV_6uypXWLb2wWm2xtUUKI_pwAWWnzk/edit
