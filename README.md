@@ -14,3 +14,5 @@
 * Expanding outside games... Music, Movies, TV Series etc.
 * Hardware (Next iPhone, Google Phone etc.)
 * Email Digests (Mandrill mailchimp or something?)
+
+# Data Model
