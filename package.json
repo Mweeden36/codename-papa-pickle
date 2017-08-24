@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/Mweeden36/codename-papa-pickle/issues"
   },
-  "homepage": "https://github.com/Mweeden36/codename-papa-pickle#readme"
+  "homepage": "https://github.com/Mweeden36/codename-papa-pickle#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0"
+  }
 }
