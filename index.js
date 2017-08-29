@@ -1,6 +1,5 @@
-const { json, send } = require('micro');
+const { send } = require('micro');
 const { router, get } = require('microrouter');
-const config = require('./config.json');
 
 const hello = (req, res) => {
   console.log(req.query);
@@ -9,5 +8,5 @@ const hello = (req, res) => {
 }
 
 module.exports = router(
-  get('/', hello)
+  get('/', hello),
 )
