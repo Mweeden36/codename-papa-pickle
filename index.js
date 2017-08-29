@@ -1,18 +1,13 @@
-const express = require('express');
-const bodyParser = require('body-parser');
+const { json, send } = require('micro');
+const { router, get } = require('microrouter');
 const config = require('./config.json');
 
-const app = express();
-const router = express.Router();
-const port = config.port;
+const hello = (req, res) => {
+  console.log(req.query);
+  // req.query accesses query params, req.params accesses url params.
+  send(res, 200, `Test received: ${req.query.message}`);
+}
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-
-router.get('/', (req, res) => {
-  res.json({ message: 'Great success!' });
-});
-
-app.use('/api', router);
-app.listen(port);
-console.log('Listening on port', port);
+module.exports = router(
+  get('/', hello)
+)

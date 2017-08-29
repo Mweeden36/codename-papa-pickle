@@ -4,6 +4,8 @@
   "description": "An app to track release dates",
   "main": "index.js",
   "scripts": {
+    "start": "micro",
+    "dev": "micro-dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,14 +19,15 @@
   },
   "homepage": "https://github.com/Mweeden36/codename-papa-pickle#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4"
+    "micro": "^8.0.3",
+    "microrouter": "^2.2.2"
   },
   "devDependencies": {
     "eslint": "^4.3.0",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.1.0",
+    "micro-dev": "^1.2.2"
   }
 }
