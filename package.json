@@ -4,8 +4,8 @@
   "description": "An app to track release dates",
   "main": "index.js",
   "scripts": {
-    "start": "micro",
-    "dev": "micro-dev",
+    "start": "micro -p 8080",
+    "dev": "micro-dev -p 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
