@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Mweeden36/codename-papa-pickle#readme",
   "dependencies": {
+    "graphql-request": "^1.3.4",
     "micro": "^8.0.3",
     "microrouter": "^2.2.2"
   },
